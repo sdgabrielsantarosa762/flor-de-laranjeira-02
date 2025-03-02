@@ -1,0 +1,89 @@
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header{
+
+width: 100%;
+padding: 60px 4% ;
+position: fixed;
+top: 0;
+left: 0;
+transition: 0.5s;
+}
+
+header.rolagem{
+
+    background-color: silver;
+    padding: 40px 4% ;
+    
+
+}
+
+header.rolagem a{
+   color: #fe775a;
+   font-style: oblique;
+   border: 8px;
+   border-color: black;
+}
+
+header i{
+
+    font-size: 30px;
+
+}
+
+header ul{
+
+    list-style-type: none;
+}
+
+header ul li{
+
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: black;
+}
+
+.btn-contato{
+
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(florfundo.jpeg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
